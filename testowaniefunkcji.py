@@ -1,14 +1,10 @@
 #zadanie
 #wez od uzytkownika liczbe i wypisal jaki jest jej kwadrat pozniej wez druga liczbe i jaki jest jej kwadrat bez uzycia petli
 
-pierwszaliczba = input("Podaj pierwsza liczba: ")
+def popros_o_liczbe_zrob_kwadrat_i_wypisz():
+  liczba = input("Podaj liczbe: ")
+  print(int(liczba)*int(liczba))
 
-pierwszaliczba = int(pierwszaliczba)
-
-print(pierwszaliczba*pierwszaliczba)
-
-drugaliczba = input("Podaj druga liczba: ")
-
-drugaliczba = int(drugaliczba)
-
-print(drugaliczba*drugaliczba)
+popros_o_liczbe_zrob_kwadrat_i_wypisz()
+popros_o_liczbe_zrob_kwadrat_i_wypisz()
+  
